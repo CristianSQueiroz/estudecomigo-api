@@ -1,7 +1,7 @@
 const { MongoClient, ServerApiVersion } = require('mongodb');
 
-//const uri = "mongodb+srv://cristiansqueiroz_db_user:Ta2Ic4FzdnKxHxlR@estudecomigocluster.zzdi62n.mongodb.net/?retryWrites=true&w=majority&appName=EstudeComigoCluster";
-const uri ="mongodb://localhost:27017";
+const uri = "mongodb+srv://cristiansqueiroz_db_user:Ta2Ic4FzdnKxHxlR@estudecomigocluster.zzdi62n.mongodb.net/?retryWrites=true&w=majority&appName=EstudeComigoCluster";
+//const uri ="mongodb://localhost:27017";
 
 
 const client = new MongoClient(uri, {
